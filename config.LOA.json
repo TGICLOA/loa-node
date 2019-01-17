@@ -37,7 +37,7 @@
     "minimumNetworkReach": 1,
     "list": [
       {
-        "ip": "0.0.0.0",
+        "ip": "114.116.15.122",
         "port": 4100
       }
     ],
