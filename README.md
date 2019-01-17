@@ -42,8 +42,8 @@ sudo npm install grunt-cli -g
 克隆Tgic-node库
 
 ```
-git clone https://github.com/xianfeic/tgic-nodev2.0.1
-cd tgic-nodev2.0.1
+git clone https://github.com/TGICLOA/loa-node.git
+cd loa-node
 ```
   
 然后创建数据库 
@@ -65,7 +65,7 @@ cd tgic-nodev2.0.1
 ```
 
 现在您需要修改配置文件了
-找到config.Tgic.json这个文件，在第68行的代码 "secret": [""],增加您的密钥
+找到config.LOA.json这个文件，在第68行的代码 "secret": [""],增加您的密钥
 
 ```
   "forging": {
@@ -79,7 +79,7 @@ cd tgic-nodev2.0.1
     }
   },
 ```
-完成后，再次修改config.Tgic.json！
+完成后，再次修改config.LOA.json！
 ```
  "db": {
     "host": "localhost",
